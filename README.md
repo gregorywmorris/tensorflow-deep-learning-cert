@@ -443,12 +443,12 @@ Any further updates/changes will be added below.
 * 14 Aug 2021 - added a discussion with TensorFlow 2.6 updates and EfficientNetV2 notes: https://github.com/mrdbourke/tensorflow-deep-learning/discussions/166
 * 16 Jul 2021 - added 35 videos to ZTM Academy + Udemy versions of the course for time series and how to pass TensorFlow Developer Certification
 * 10 Jul 2021 - added 29 edited time series videos to ZTM Academy + Udemy versions of the course, more to come soon
-* 07 Jul 2021 - recorded 5 videos for passing TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
+* 07 Jul 2021 - recorded 5 videos for passing the TensorFlow Developer Certification exam section - ALL VIDEOS FOR COURSE DONE!!! time to edit/upload! 🎉
 * 06 Jul 2021 - added guide to TensorFlow Certification Exam: https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/11_passing_the_tensorflow_developer_certification_exam.md - going to record videos for it tomorrow
 * 05 Jul 2021 - making materials for TF certification exam (what/why/how)
 * 02 Jul 2021 - FINISHED RECORDING VIDEOS FOR TIME SERIES SECTION!!!!! time to upload
-* 30 Jun 2021 - recorded 12 videos for time series section, total heading past 60 (the biggest section yet), nearly done!!!
-* 29 Jun 2021 - recorded 10 videos for time series section, total heading towards 60
+* 30 Jun 2021 - recorded 12 videos for the time series section, total heading past 60 (the biggest section yet), nearly done!!!
+* 29 Jun 2021 - recorded 10 videos for the time series section, total heading towards 60
 * 28 Jun 2021 - recorded 10 videos for time series section, the line below says 40 videos total, actually more like 50
 * 26 Jun 2021 - recorded 4 videos for time series section, looks like it'll be about 40 videos total
 * 25 Jun 2021 - recorded 8 videos for time series section + fixed a bunch of typos in time series notebook
@@ -492,7 +492,7 @@ Any further updates/changes will be added below.
 * 14 Apr 2021 - recorded 12 videos for notebook 08, finished the section! time to make slides for 09 and get into it
 * 10 Apr 2021 - recorded 4 videos for notebook 08
 * 9 Apr 2021 - recorded 6 videos for notebook 08 
-* 8 Apr 2021 - recorded 10 videos for notebook 08! more coming tomorrow! home stretch baby!!!
+* 8 Apr 2021 - recorded 10 videos for notebook 08! More coming tomorrow! Home stretch baby!!!
 * 7 Apr 2021 - added a whole bunch of images to notebook 08, getting ready for recording tomorrow!
 * 1 Apr 2021 - added [notebook 09: SkimLit](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/09_SkimLit_nlp_milestone_project_2.ipynb), almost finished, a little cleaning and we'll be ready for slide making!
 * 31 Mar 2021 - added notebook 08, going to finish tomorrow, then onto 09! 
@@ -512,19 +512,19 @@ Any further updates/changes will be added below.
 * 17 Feb 2021 - recorded 10 videos for 05! going to finish tomorrow 🚀
 * 16 Feb 2021 - polished slides for 05 and started recording videos, got 7 videos done for 05 
 * 15 Feb 2021 - finished videos for 04, now preparing to record for 05!
-* 12 Feb 2021 - recored 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
+* 12 Feb 2021 - recorded 7 videos for section 04... wanted 10 but we'll take 7 (🤔 this seems to have happened before)
 * 11 Feb 2021 - NO PROGRESS - gave a Machine Learning deployment tutorial for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html) (using the model code from this course!!!) - [see the full tutorial materials](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)
 * 08 Feb 2021 - recorded 10 videos for section 03... and section 03 is done! 🚀 onto section 04
-* 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on a ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
+* 30 Jan 2021 - 07 Feb 2021: NO PROGRESS (working on an ML deployment lecture for [Stanford's CS329s](https://stanford-cs329s.github.io/syllabus.html)... more on this later)
 * 29 Jan 2021 - recorded 9 videos for section 03... closer to 10 than yesterday but still not there
 * 28 Jan 2021 - recorded 7 videos for section 03... wanted 10 but we'll take 7
 * 27 Jan 2021 - recorded 10 videos for section 03
 * 26 Jan 2021 - polished GitHub README (what you're looking at) with a [nice table](https://github.com/mrdbourke/tensorflow-deep-learning#course-materials)
 * 23 Jan 2021 - finished slides of 06
 * 22 Jan 2021 - finished review of notebook 06 & started slides of 06
-* 21 Jan 2021 - finished slides for 05 & started review of 06
+* 21 Jan 2021 - finished slides for 05 & started a review of 06
 * 20 Jan 2021 - finished notebook 05 & 95% slides for 05
-* 19 Jan 2021 - found a storage idea for data during course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
+* 19 Jan 2021 - found a storage idea for data during the course (use Google Storage in same region as Colab Notebooks, cheapest/fastest)
 * 18 Jan 2021 - reviewed notebook 05 & slides for 05
 * 17 Jan 2021 - finished notebook 04 & slides for 04
 * 16 Jan 2021 - review notebook 04 & made slides for transfer learning
@@ -538,10 +538,11 @@ Any further updates/changes will be added below.
 * 15 Dec 2020 - recorded 90% of videos for 01
 * 09 Dec 2020 - finished recording videos for 00
 * 08 Dec 2020 - recorded 90% of videos for 00
-* 05 Dec 2020 - trialled recording studio for ~6 videos with notebook 00 material
+* 05 Dec 2020 - trialed recording studio for ~6 videos with notebook 00 material
 * 04 Dec 2020 - setup [recording studio in closet](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/misc-studio-setup.jpeg)
 * 03 Dec 2020 - finished notebook 02, finished slides for 02, time to setup recording studio
 * 02 Dec 2020 - notebook 02 95% done, slides for 02 90% done
 * 01 Dec 2020 - added notebook 02 (90% polished), start preparing slides for 02
 * 27 Nov 2020 - polished notebook 01, made slides for notebook 01
 * 26 Nov 2020 - polished notebook 00, made slides for notebook 00
+ 
