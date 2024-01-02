@@ -133,19 +133,26 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.5.5=hc292b87_0
   - pip:
-      - absl-py==2.0.0
+      - absl-py==1.4.0
+      - array-record==0.5.0
       - astunparse==1.6.3
       - cachetools==5.3.2
       - certifi==2023.11.17
       - charset-normalizer==3.3.2
+      - click==8.1.7
+      - dm-tree==0.1.8
+      - etils==1.6.0
       - flatbuffers==23.5.26
+      - fsspec==2023.12.2
       - gast==0.5.4
       - google-auth==2.25.2
       - google-auth-oauthlib==1.2.0
       - google-pasta==0.2.0
+      - googleapis-common-protos==1.62.0
       - grpcio==1.60.0
       - h5py==3.10.0
       - idna==3.6
+      - importlib-resources==6.1.1
       - keras==2.15.0
       - libclang==16.0.6
       - markdown==3.5.1
@@ -166,7 +173,8 @@ dependencies:
       - oauthlib==3.2.2
       - opt-einsum==3.3.0
       - pip==23.3.2
-      - protobuf==4.23.4
+      - promise==2.3
+      - protobuf==3.20.3
       - pyasn1==0.5.1
       - pyasn1-modules==0.3.0
       - requests==2.31.0
@@ -175,12 +183,16 @@ dependencies:
       - tensorboard==2.15.1
       - tensorboard-data-server==0.7.2
       - tensorflow==2.15.0.post1
+      - tensorflow-datasets==4.9.4
       - tensorflow-estimator==2.15.0
       - tensorflow-io-gcs-filesystem==0.35.0
+      - tensorflow-metadata==1.14.0
       - tensorrt==8.6.1.post1
       - tensorrt-bindings==8.6.1
       - tensorrt-libs==8.6.1
       - termcolor==2.4.0
+      - toml==0.10.2
+      - tqdm==4.66.1
       - urllib3==2.1.0
       - werkzeug==3.0.1
       - wrapt==1.14.1
