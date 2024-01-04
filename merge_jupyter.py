@@ -26,5 +26,5 @@ def merge_two_jupyter_notebooks(first, second):
 
     return write_ipynb(final_notebook, 'final_notebook.ipynb')
 
-merge_two_jupyter_notebooks('00_tensorflow_fundamentals.ipynb',
-                             '01_neural_network_regression_in_tensorflow.ipynb')
+# merge_two_jupyter_notebooks('00_tensorflow_fundamentals.ipynb',
+#                              '01_neural_network_regression_in_tensorflow.ipynb')
