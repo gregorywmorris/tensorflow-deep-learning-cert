@@ -1,30 +1,37 @@
-import json
-import copy
+import time
 
-def merge_two_jupyter_notebooks(first, second):
-    """
-    Merge Jupyter Notebooks
-    See also nbformat
-    """
 
-    def read_ipynb(notebook_path):
-        """read IPYNB files"""
-        with open(notebook_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+def calc_square(numbers):
+    for n in numbers:
+        print(f'\n{n} ^ 2 = {n*n}')
+        time.sleep(0.1)
 
-    def write_ipynb(notebook, notebook_path):
-        """export the notebook"""
-        with open(notebook_path, 'w', encoding='utf-8') as f:
-            json.dump(notebook, f)
+def calc_cube(numbers):
+    for n in numbers:
+        print(f'\n{n} ^ 3 = {n*n*n}')
+        time.sleep(0.1)
 
-    first_notebook = read_ipynb(first)
-    second_notebook = read_ipynb(second)
+numbers = [2, 3, 5, 8]
+start = time.time()
+calc_square(numbers)
+calc_cube(numbers)
+end = time.time()
 
-    final_notebook = copy.deepcopy(first_notebook)
+print('Execution Time: {}'.format(end-start))
 
-    final_notebook['cells'] = first_notebook['cells'] + second_notebook['cells']
+import threading
 
-    return write_ipynb(final_notebook, 'final_notebook.ipynb')
+start = time.time()
 
-merge_two_jupyter_notebooks('00_tensorflow_fundamentals.ipynb',
-                             '01_neural_network_regression_in_tensorflow.ipynb')
+square_thread = threading.Thread(target=calc_square, args=(numbers,))
+cube_thread = threading.Thread(target=calc_cube, args=(numbers,))
+
+square_thread.start()
+cube_thread.start()
+
+square_thread.join()
+cube_thread.join()
+
+end = time.time()
+
+print('Execution Time: {}'.format(end-start))
